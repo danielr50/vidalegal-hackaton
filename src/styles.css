@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body{
+    font-family: ‘Raleway’, sans-serif;
+}
+
+
+
+
+
+#ladoIzquierdoMenuPrincipal{
+       height:500px;
+         border-top-left-radius: 30px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid lightcoral;
+        background: whitesmoke;
+  }
+  
+  #ladoDerechoMenuPrincipal{
+       height:500px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 30px;
+        border: 2px solid lightcoral;
+  }
+
+
+
+
+
+@media (max-width: 768px) {
+  #ladoIzquierdoMenuPrincipal{
+      border-radius:0;
+  }
+  
+  #ladoDerechoMenuPrincipal{
+      border-color:blue;
+      border-radius:0;
+  }
+  
+  
+}
